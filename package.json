@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prebuild": "cp template.env .env",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lintfix": "eslint --fix",
